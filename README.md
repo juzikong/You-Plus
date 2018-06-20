@@ -26,7 +26,7 @@ To download, click MacTeX Download. 
 
 文件约3GB 下载后安装
 
-### 操作 (Terminal，Git)
+### 保存与分享 (Git)
 
 尝试在 Terminal 输入 git help 回车
 
