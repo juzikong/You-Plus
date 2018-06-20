@@ -36,9 +36,15 @@ To download, click MacTeX Download. 
 
 ## 使用
 
+### 首先在 Terminal 进入本地电脑的合适地址（cd命令），再通过以下命令下载本项目全部文件到该地址：
+
 git clone https://github.com/juzikong/You-Plus.git
 
+### 进入本项目文件夹：
+
 cd You-Plus/
+
+### 使用 pandoc 进行格式转换：
 
 * rtf:
 
