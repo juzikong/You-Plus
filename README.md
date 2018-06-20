@@ -52,26 +52,36 @@ cd You-Plus/
 
 * rtf:
 
-pandoc You-Plus.md -s -o test.rtf
+pandoc You-Plus.md -s -o You-Plus.rtf
 
 * HTML:
 
-pandoc You-Plus.md -s -o test.html
+pandoc You-Plus.md -s -o You-Plus.html
 
 * Word文档：
 
-pandoc You-Plus.md -s -o test.docx
+pandoc You-Plus.md -s -o You-Plus.docx
 
 * 电子书：
 
-pandoc chap1.md chap2.md chap3.md metadata.yaml -s -o book.epub
+pandoc chap1.md chap2.md chap3.md metadata.yaml -s -o You-Plus.epub
 
 * PDF：
 
-pandoc You-Plus/You-Plus.md -o test.pdf -s --template=You-Plus/pm-template.latex --pdf-engine=xelatex -V mainfont='STHeiti'
+pandoc You-Plus/You-Plus.md -o You-Plus.pdf -s --template=You-Plus/pm-template.latex --pdf-engine=xelatex -V mainfont='STHeiti'
 
-* 如果 Latex 无中文尝试以下命令—
+**如果报错显示 Latex 无中文 或生成的文件中文显示不出来：**
+
+先确认MacTex和xelatex已经正确安装
+
+输入 xelatex 回车如果显示版本信息则说明已经正确安装
+
+按 control+D 退出 xelatex，然后尝试运行以下命令
 
 $sudo tlmgr install titling
 
 $sudo tlmgr install lastpage
+
+最后重试
+
+pandoc You-Plus/You-Plus.md -o You-Plus.pdf -s --template=You-Plus/pm-template.latex --pdf-engine=xelatex -V mainfont='STHeiti'
