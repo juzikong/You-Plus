@@ -18,7 +18,7 @@
 
 iOS 系统点击 “……-macOS.pkg” 下载后安装
 
-### Latex—MacTex
+### PDF格式的编辑器（Latex—MacTex）
 
 iOS 下载地址：<http://www.tug.org/mactex/>
 
