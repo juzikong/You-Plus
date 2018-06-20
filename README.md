@@ -44,7 +44,7 @@ git clone https://github.com/juzikong/You-Plus.git
 
 cd You-Plus/
 
-### 使用 pandoc 进行格式转换：
+### 使用 pandoc 进行任意格式的转换：
 
 * rtf:
 
