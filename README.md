@@ -22,11 +22,9 @@ iOS 系统点击 “……-macOS.pkg” 下载后安装
 
 iOS 下载地址：<http://www.tug.org/mactex/>
 
-To download, click MacTeX Download. 
+To download, click MacTeX Download. 下载后安装
 
-<span style="color:blue">some *blue* text</span>
-
-文件约3GB 下载后安装
+**文件约3GB *推荐先下载安装本文件再学习其他部分* **
 
 ### 保存与分享 (Git)
 
