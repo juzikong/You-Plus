@@ -54,6 +54,10 @@ cd You-Plus/
 
 pandoc You-Plus.md -s -o test.rtf
 
+* HTML:
+
+pandoc You-Plus.md -s -o test.html
+
 * Word文档：
 
 pandoc You-Plus.md -s -o test.docx
