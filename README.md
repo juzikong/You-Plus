@@ -6,7 +6,7 @@
 
 编辑器：任意
 
-书写方式：markdown
+书写方式：markdown （本文本的书写方式就是markdown，参照模仿即可）
 
 文本保存格式：.md 文件
 
